@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "budet-li-uvelichena-srednyaya-zarplata-vracha-v-moskve-v-2016-godu.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "budet-li-uvelichena-srednyaya-zarplata-vracha-v-moskve-v-2016-godu-1.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "budet-li-uvelichena-srednyaya-zarplata-vracha-v-moskve-v-2016-godu-2.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
