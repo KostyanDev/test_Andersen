@@ -33,19 +33,21 @@ class ADTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return self.myDataSource.count
+
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ADTableViewControllerCell
-
-      
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ADTableViewControllerCell
         
-       cell.ADName.text = [indexPath.row]
-
+        
+        
+        
+        cell.ADName.text = self.myDataSource[indexPath.row].name
+        
         return cell
+    
     }
    
     let name:String = ""
